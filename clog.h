@@ -12,6 +12,7 @@
  
 using namespace std;
  
+#define DEFAULT_LOG_FILE "./simplelog.log"
 
 namespace clog{
 
