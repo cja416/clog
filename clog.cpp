@@ -53,7 +53,7 @@ void write_log(ostringstream& _log, FILE* _fp){
 	string tmp = _log.str();
 	//TODO write to __threadlocal
 	fwrite(tmp.c_str(), 1, tmp.size(), _fp);
-	fflush(_fp);			//force flush
+	//fflush(_fp);			//force flush
 	_log.str("");
 }
 
